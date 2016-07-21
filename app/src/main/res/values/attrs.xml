@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AttrView">
+        <attr name="test1" format="boolean"></attr>
+        <attr name="test2" format="integer"></attr>
+        <attr name="test3" format="dimension"></attr>
+    </declare-styleable>
+
+    <attr name="attrViewStyleRef" format="reference"></attr>
+</resources>

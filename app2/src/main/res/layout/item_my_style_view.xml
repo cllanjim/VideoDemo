@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#88877b7b"
+    >
+
+    <TextView
+        android:id="@+id/mTvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选项名称"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/mTvKind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="备注"
+        android:textSize="18dp"
+        android:layout_below="@id/mTvName"
+        />
+
+    <ImageView
+        android:id="@+id/mIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        />
+</RelativeLayout>
